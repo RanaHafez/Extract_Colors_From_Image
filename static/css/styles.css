@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.color-box {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+    /* padding-top: 300px; */
+}
+
+.img {
+    width: 500px;
+    height: 500px;
+}
