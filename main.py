@@ -1,9 +1,6 @@
 import extcolors
 from flask import Flask, jsonify, render_template, request, redirect, url_for, send_from_directory
 from tkinter import filedialog as fd
-from PIL import Image
-import base64
-import io
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = "/static/images/"

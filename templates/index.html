@@ -12,10 +12,6 @@
     <!-- url_for('open-image') -->
     <a href="{{ url_for('open_file') }}" class="btn btn-outline-dark">Get Image</a>
     {% if colors != null %}
-    {% print(image) %}
-    <div>
-        <img src="{{ image }}">
-    </div>
     <div class="container">
         <div class="row">
          {% for c in colors %}
